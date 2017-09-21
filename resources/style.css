@@ -1,0 +1,56 @@
+* {
+  color: seashell;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  margin-left: 10px;
+}
+
+.nav {
+  padding: 10px;
+  text-decoration: underline;
+}
+
+#navmarginright {
+  margin-right: 10px;
+}
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 69px;
+  display: flex;
+  align-items: center;
+  background-image: url("images/img-mission-background.jpg");
+}
+
+#mission #title {
+  background-color: black;
+  width: 1200px;
+}
