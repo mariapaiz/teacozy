@@ -54,3 +54,55 @@ body {
   background-color: black;
   width: 1200px;
 }
+
+#featured {
+  padding: 70px 0 70px 0;
+}
+
+#featuredcat {
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#title {
+  display: block;
+}
+
+#locations {
+  background-image: url(images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#locationsflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teasample {
+  width: 300px;
+  height: 200px;
+  padding: 0 15px 0 15px;
+}
+
+.address {
+  width: 300px;
+  background-color: black;
+  margin: 0 40px 0 40px;
+}
+
+#footer {
+  height: 200px;
+}
+
+#copyright{
+  padding-left: 20px;
+  text-align: left;
+}
