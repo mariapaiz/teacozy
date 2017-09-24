@@ -78,12 +78,15 @@ body {
   height: 500px;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 70px;
 }
 
 #locationsflex {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .teasample {
@@ -96,6 +99,7 @@ body {
   width: 300px;
   background-color: black;
   margin: 0 40px 0 40px;
+  opacity: 1;
 }
 
 #footer {
